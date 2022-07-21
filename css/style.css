@@ -461,6 +461,48 @@ footer {
 }
     
 
+/* секція clients */
+
+.customers {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--black-txt-cl);
+    margin-bottom: 50px;
+}
+
+.client-list {
+    display: flex;
+    list-style: none;
+    
+}
+
+.client-icons:not(:last-child) {
+    margin-right: 30px;
+}
+
+.company {
+        display: flex;
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        width: 170px;
+        height: 92px;
+        border: 1px solid #afb1b8;
+        border-radius: 4px;
+        color: #afb1b8;
+}
+
+.logo-company {
+    fill: currentColor;
+    cursor: pointer;
+}
+
+.logo-company:hover,
+.logo-company:focus {
+    color: var(--accent-txt-cl);
+}
+
 /* Секція portfolio */
 
 .portfolio {
