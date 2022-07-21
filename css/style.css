@@ -201,13 +201,14 @@ footer {
 
 
 .contact {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    list-style: none;
+    display: flex;
+    align-items: center;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    color: var(--main-txt-cl);  
+    
     text-decoration: none;
-    color: var(--main-txt-cl);    
+    list-style: none;
 }
 
 .contact:hover,
@@ -215,6 +216,11 @@ footer {
     color: var(--accent-txt-cl);
 }
 
+.icon-envelope,
+.icon-smartphone {
+    fill: currentColor;
+    margin-right: 10px;
+}
 /* Кнопки */
 
 .btn {
@@ -265,8 +271,21 @@ footer {
     padding-bottom: 200px;
     background-color: var(--hero-bg-cl);
     text-align: center;
+
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right,
+    rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), 
+    url(../image/hero/img.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    
     
 }
+
 
 
 .hero-title {
