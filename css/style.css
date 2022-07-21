@@ -653,6 +653,12 @@ footer {
     padding-bottom: 60px;
 }
 
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    padding: 0 15px;
+}
+
 .address {
     margin-top: 20px;
 
@@ -690,4 +696,50 @@ footer {
 .mail {
     color: rgba(255, 255, 255, 0.6);
 }
+
+.footer-join {
+    margin-left: 70px;
+}
+
+.connect {
+    display: inline-block;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--main-bg-cl);
+}
+
+.footer-list {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.icon-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.icon-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    padding: 12px;
+    color: var(--main-bg-cl);
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+}
+
+.icon-group:hover,
+.icon-group:focus {
+    background-color: var(--accent-txt-cl);
+}
+
+.footer-icons {
+    fill: var(--main-bg-cl);
+}
+
 
