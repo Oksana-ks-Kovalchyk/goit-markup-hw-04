@@ -233,7 +233,7 @@ footer {
     font-family: inherit;
     text-align: center;    
     background-color: transparent;
-    border-radius: 4px;
+    
     border: 1px solid transparent;
 
     cursor: pointer;
@@ -320,6 +320,7 @@ footer {
 
     align-items: center;
     letter-spacing: 0.06em;
+    border-radius: 4px;
 }
 
 .visually-hidden {
