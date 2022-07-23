@@ -213,6 +213,7 @@ footer {
     
     text-decoration: none;
     list-style: none;
+    
 }
 
 .contact:hover,
@@ -224,7 +225,10 @@ footer {
 .icon-smartphone {
     fill: currentColor;
     margin-right: 10px;
+    
 }
+
+
 /* Кнопки */
 
 .btn {
